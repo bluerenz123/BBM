@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;600&display=swap');
+
+
+*{
+
+    margin: auto;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+li, a, button{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10%;   
+    background-color: #24252a;
+}
+
+.main{
+    display: flex;
+    height: 93vh;
+    background-image: url("home_background.png");
+
+}
+
+
+.logo{
+    cursor: pointer;
+    max-width: 8%;
+}
+
+.nav_links{
+    list_style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color:#014767;
+}
+
+button  {
+padding: 9px 25px;
+background-color: #24252a;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+}
+
+button:hover    {
+    background-color: #014767;
+}
+
+.footer{
+    height: 5vh;
+    background-color: #014767;
+    position: relative;
+}
+
+
+.cards {
+    
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    width: 1500px;
+    height: 1080px;
+    position: inline-center;
+    background-color: #01293c;
+    max-height: 90vh;
+    max-width: 192vh;
+    opacity: 0.9;
+
+}
+
+.container {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    width: 90vh;
+    max-width: 100vh;
+    height: 90vh;
+    max-height: 100vh;
+    justify-content: center;
+    position: center;
+}
+
+.my_profile{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+ 
+
+}
